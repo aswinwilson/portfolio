@@ -1,0 +1,142 @@
+.App {
+  text-align: center;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+:root {
+  --primary-white: #ffffff;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+/* *************************************** Logo **************************************************** */
+
+.logo {
+  width: 3rem;
+}
+
+/* *************************************** Navbar **************************************************** */
+
+.navbar {
+  height: 10vh;
+
+  .navbar-nav {
+    & > li > a {
+      color: var(--primary-white) !important;
+      border-top: 3px solid transparent;
+  
+      &.active,
+      &:hover {
+        border-top: 3px solid;
+        border-color: red;
+      }
+    }
+  }
+
+  .navbar-collapse.show{
+    background: #666;
+    padding-left: 1rem;
+    z-index: 9;
+  }
+}
+
+
+/* *************************************** Header **************************************************** */
+
+.page-content {
+  height: 80vh;
+  overflow-y: auto;
+  position: relative;
+}
+
+.footer {
+  height: 10vh;
+  color: #ffffff;
+  background-color: #343a40;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.laptop-image-wrapper {
+  position: relative;
+  .laptop-image {
+    width: 100%;
+  }
+  .typed-content {
+    position: absolute;
+    left: 18%;
+    top: 10%;
+    width: 66%;
+    font-weight: 700;
+
+    .typed-cursor {
+      display: none;
+    }
+  }
+}
+
+.page-content {
+  .container {
+    #tsparticles {
+      position: absolute;
+      width: 100%;
+      top: 0;
+      left: 0;
+      height: 85vh;
+    }
+    .header-wrapper {
+      height: 85vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+}
+
+.share-buttons-wrapper {
+  position: absolute;
+  left: 0;
+  top: 30%;
+  a {
+    color: white;
+    padding: 0.1rem 0.5rem;
+    font-size: 2rem;
+    background: #666;
+    border-radius: 0 1.5rem 1.5rem 0;
+    &:hover {
+      color: #f44242;
+      padding-left: 1rem;
+    }
+  }
+  .linkedin-icon a {
+    padding-right: 0.7rem;
+  }
+  .envelope-icon a {
+    font-size: 1.8rem;
+    padding-right: 0.7rem;
+  }
+}
+
+@media (min-width: 768px) {
+  // .page-content {
+  //   .container {
+  //     .header-wrapper {
+  //       height: 85vh;
+  //     }
+  //   }
+  // }
+  .page-content {
+    height: 85vh;
+  }
+  .footer {
+    height: 5vh;
+  }
+  .laptop-image-wrapper {
+    .typed-content {
+      font-size: 1.5rem;
+    }
+  }
+}
