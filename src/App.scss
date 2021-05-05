@@ -26,7 +26,7 @@ body {
     & > li > a {
       color: var(--primary-white) !important;
       border-top: 3px solid transparent;
-  
+
       &.active,
       &:hover {
         border-top: 3px solid;
@@ -35,13 +35,12 @@ body {
     }
   }
 
-  .navbar-collapse.show{
+  .navbar-collapse.show {
     background: #666;
     padding-left: 1rem;
     z-index: 9;
   }
 }
-
 
 /* *************************************** Header **************************************************** */
 
@@ -85,10 +84,10 @@ body {
       width: 100%;
       top: 0;
       left: 0;
-      height: 85vh;
+      height: 80vh;
     }
     .header-wrapper {
-      height: 85vh;
+      height: 80vh;
       display: flex;
       justify-content: center;
       align-items: center;
@@ -121,15 +120,16 @@ body {
 }
 
 @media (min-width: 768px) {
-  // .page-content {
-  //   .container {
-  //     .header-wrapper {
-  //       height: 85vh;
-  //     }
-  //   }
-  // }
   .page-content {
     height: 85vh;
+    .container {
+      #tsparticles {
+        height: 85vh;
+      }
+      .header-wrapper {
+        height: 85vh;
+      }
+    }
   }
   .footer {
     height: 5vh;
