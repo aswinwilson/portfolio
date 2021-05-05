@@ -35,7 +35,7 @@ const Header = () => {
             typeSpeed={25}
             backSpeed={5}
             strings={[
-              '<p>"name": "Aswin Antony Wilson",</p><p>"role": "Developer &#9829;",</p><p>"location": "Ontario, Canada",</p><p>"relocatable": true</p>',
+              '<p>"name": "Aswin Antony Wilson",</p><p>"role": "Software Developer &#9829;",</p><p>"location": "Ontario, Canada",</p><p>"relocatable": true</p>',
             ]}
             className="typed-content"
           />

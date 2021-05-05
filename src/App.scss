@@ -14,13 +14,13 @@ body {
 /* *************************************** Logo **************************************************** */
 
 .logo {
-  width: 3rem;
+  width: 2rem;
 }
 
 /* *************************************** Navbar **************************************************** */
 
 .navbar {
-  height: 10vh;
+  height: 8vh;
 
   .navbar-nav {
     & > li > a {
@@ -45,7 +45,7 @@ body {
 /* *************************************** Header **************************************************** */
 
 .page-content {
-  height: 80vh;
+  height: 82vh;
   overflow-y: auto;
   position: relative;
 }
@@ -120,6 +120,12 @@ body {
 }
 
 @media (min-width: 768px) {
+  .navbar {
+    height: 10vh;
+  }
+  .logo {
+    width: 3rem;
+  }
   .page-content {
     height: 85vh;
     .container {
