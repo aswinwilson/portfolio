@@ -55,6 +55,7 @@ body {
 }
 
 .laptop-image-wrapper {
+  font-size: 12px;
   position: relative;
   .laptop-image {
     width: 100%;
@@ -69,6 +70,9 @@ body {
     .typed-cursor {
       display: none;
     }
+  }
+  p {
+    margin-bottom: 0.65rem;
   }
 }
 
@@ -111,6 +115,21 @@ body {
   .envelope-icon a {
     font-size: 1.8rem;
     padding-right: 0.7rem;
+  }
+}
+
+@media (min-width: 425px) {
+  .laptop-image-wrapper {
+    font-size: 16px;
+    p {
+      margin-bottom: 1rem;
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  .laptop-image-wrapper {
+    font-size: 24px;
   }
 }
 
