@@ -5,6 +5,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 :root {
   --primary-white: #ffffff;
+  --primary-black: #343a40;
+  --primary-grey: #666666;
+  --primary-red: #f44242;
 }
 
 body {
@@ -28,7 +31,7 @@ body {
       &.active,
       &:hover {
         border-top: 3px solid;
-        border-color: red;
+        border-color: var(--primary-red);
       }
     }
   }
@@ -47,8 +50,8 @@ body {
 }
 
 .footer {
-  color: #ffffff;
-  background-color: #343a40;
+  color: var(--primary-white);
+  background-color: var(--primary-grey);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -83,7 +86,7 @@ body {
       width: 100%;
       top: 0;
       left: 0;
-      height: 100%;
+      height: 70vh;
     }
     .header-wrapper {
       min-height: 70vh;
@@ -99,13 +102,13 @@ body {
   left: 0;
   top: 30%;
   a {
-    color: white;
+    color: var(--primary-white);
     padding: 0.1rem 0.5rem;
     font-size: 2rem;
-    background: #666;
+    background: var(--primary-black);
     border-radius: 0 1.5rem 1.5rem 0;
     &:hover {
-      color: #f44242;
+      color: var(--primary-red);
       padding-left: 1rem;
     }
   }
@@ -162,7 +165,7 @@ body {
 }
 
 /********************************************About Me****************************/
-.aboutme-wrapper{
-  background-color: black;
-  color: white;
+.aboutme-wrapper {
+  background-color: var(--primary-black);
+  color: var(--primary-white);
 }

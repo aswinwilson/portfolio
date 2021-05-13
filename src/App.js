@@ -1,5 +1,4 @@
-// import "./App.css";
-import './App.scss'; 
+import './App.scss';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Navbar from './components/Navbar';
 import PageContent from './components/PageContent';
@@ -9,7 +8,7 @@ function App() {
   return (
     <>
       <Navbar />
-      <PageContent/>
+      <PageContent />
       <Footer />
     </>
   );
