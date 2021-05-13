@@ -13,7 +13,7 @@ const AboutMe = () => {
             </div>
           </div>
           <div className="col-sm-8">
-            <div>
+            <div className="text-justify">
               I'm a Software Developer with almost 2 years of professional experience in Front End Development.
               I always try to learn new technologies to enhance my skills and develop my knowledge in the domain.
             </div>
