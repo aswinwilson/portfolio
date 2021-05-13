@@ -7,9 +7,9 @@ import { Scrollbars } from 'react-custom-scrollbars';
 function PageContent() {
   return (
     <div className="page-content">
+      <ShareButtons />
       <Scrollbars>
         <Header />
-        <ShareButtons />
         <AboutMe />
       </Scrollbars>
     </div >
