@@ -5,7 +5,7 @@ import Particles from "react-particles-js";
 
 const Header = () => {
   return (
-    <div className="container">
+    <div className="container" id="home">
       <Particles
         params={{
           particles: {

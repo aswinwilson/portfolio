@@ -8,7 +8,7 @@ function PageContent() {
   return (
     <div className="page-content">
       <ShareButtons />
-      <Scrollbars>
+      <Scrollbars style={{ height: '85vh' }}>
         <Header />
         <AboutMe />
       </Scrollbars>
