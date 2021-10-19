@@ -170,3 +170,16 @@ body {
   background-color: var(--primary-black);
   color: var(--primary-white);
 }
+
+/*******************************************Works*********************************/
+.experience-wrapper {
+  .experience-img-wrapper {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    img {
+      width: 100%;
+    }
+  }
+}

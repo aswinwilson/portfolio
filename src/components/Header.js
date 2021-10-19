@@ -27,7 +27,6 @@ const Header = () => {
         }}
       />
       <div className="header-wrapper">
-        {/* <div className="main-info">Web developement ongoininga</div> */}
         <div className="laptop-image-wrapper">
           <img src={laptop} alt="Laptop" className="laptop-image"></img>
           <Typed

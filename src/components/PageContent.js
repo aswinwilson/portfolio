@@ -3,6 +3,7 @@ import Header from "./Header";
 import ShareButtons from "./ShareButtons";
 import AboutMe from "./AboutMe";
 import { Scrollbars } from 'react-custom-scrollbars';
+import Experience from "./Experience";
 
 function PageContent() {
   return (
@@ -11,6 +12,7 @@ function PageContent() {
       <Scrollbars style={{ height: '85vh' }}>
         <Header />
         <AboutMe />
+        <Experience />
       </Scrollbars>
     </div >
   );
