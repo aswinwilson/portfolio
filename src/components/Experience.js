@@ -18,7 +18,7 @@ const Experience = () => {
         </div>
         <div className="row">
           <div className="col-sm-4">
-            <div className="experience-img-wrapper">
+            <div className="experience-img-wrapper py-3">
               <img src={CarZiplogix} alt="Car Ziplogix (all copyrights reserved to Lone Wolf)" />
             </div>
           </div>
@@ -38,7 +38,7 @@ const Experience = () => {
 
         <div className="row">
           <div className="col-sm-4">
-            <div className="experience-img-wrapper">
+            <div className="experience-img-wrapper py-3">
               <img className="w-75" src={R7Winfield} alt="R7 Tool by Winfield United" />
             </div>
           </div>
@@ -59,7 +59,7 @@ const Experience = () => {
 
         <div className="row">
           <div className="col-sm-4">
-            <div className="experience-img-wrapper">
+            <div className="experience-img-wrapper py-3">
               <img src={Radian} alt="Radian" />
             </div>
           </div>
@@ -78,7 +78,7 @@ const Experience = () => {
 
         <div className="row">
           <div className="col-sm-4">
-            <div className="experience-img-wrapper">
+            <div className="experience-img-wrapper py-3">
               <img src={CommercialShop} alt="CommercialShop" />
             </div>
           </div>
@@ -96,7 +96,7 @@ const Experience = () => {
 
         <div className="row">
           <div className="col-sm-4">
-            <div className="experience-img-wrapper">
+            <div className="experience-img-wrapper py-3">
               <img src={Questionaire} alt="Questionaire" />
             </div>
           </div>
@@ -113,7 +113,7 @@ const Experience = () => {
 
         <div className="row">
           <div className="col-sm-4">
-            <div className="experience-img-wrapper">
+            <div className="experience-img-wrapper py-3">
               <img src={VaccineOne} alt="VaccineOne" />
             </div>
           </div>
