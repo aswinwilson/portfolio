@@ -5,7 +5,6 @@ import Radian from '../images/radian.png';
 import CommercialShop from '../images/bb1.jpeg';
 import Questionaire from '../images/quest2.jpeg';
 import VaccineOne from '../images/vaccine1.jpeg';
-import { Carousel } from 'react-carousel-minimal';
 
 const Experience = () => {
   return (

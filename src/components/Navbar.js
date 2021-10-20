@@ -2,6 +2,7 @@ import React from 'react';
 import logoWhite from '../images/aswin_wilson_logo_white.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars } from "@fortawesome/free-solid-svg-icons";
+import ResumePdf from '../resume/ResumeOne.pdf';
 
 const Navbar = () => {
     return (
@@ -23,7 +24,7 @@ const Navbar = () => {
                             <a className="nav-link" href="#experience">Experience</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#resume">Resume</a>
+                            <a className="nav-link" href={ResumePdf} target="_blank" rel="noreferrer">Resume</a>
                         </li>
                     </ul>
                 </div>
