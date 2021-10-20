@@ -13,21 +13,21 @@ const Experience = () => {
           </div>
         </div>
         <div className="row">
+          <div className="col-sm-4">
+            <div className="experience-img-wrapper">
+              <img src={CarZiplogix} alt="Car Ziplogix (all copyrights reserved to Lone Wolf)" />
+            </div>
+          </div>
           <div className="col-sm-8">
             <div className="experience-info-wrapper">
               <h4>CAR Ziplogix (California Associates of Realtors)</h4>
-              <h5>User Interface Engineer</h5>
+              <h5>User Interface Engineer @ Tavant Technologies</h5>
               <p>zipForm Plus was designed from the ground up specifically for today’s agents and brokers. This is a real
                 estate application, maximizing workflow efficiency while reducing risk related to mortgage.
                 Responsibilities included Front end development in Backbone.js based on MVC architecture, while
                 utilizing the power of underscore.js, require.js, and jQuery. API integration and mapping backend data
                 to the front end. Creation of pixel perfect and responsive screens with cross-browser compatibility
                 using bootstrap 3. Adding accessibility and supporting multiple foreign languages.</p>
-            </div>
-          </div>
-          <div className="col-sm-4">
-            <div className="experience-img-wrapper">
-              <img src={CarZiplogix} alt="Car Ziplogix (all copyrights reserved to Lone Wolf)" />
             </div>
           </div>
         </div>
@@ -41,7 +41,7 @@ const Experience = () => {
           <div className="col-sm-8">
             <div className="experience-info-wrapper">
               <h4>R7 Tool by Winfield United</h4>
-              <h5>User Interface Engineer</h5>
+              <h5>User Interface Engineer @ Tavant Technologies</h5>
               <p>It is an industry-leading decision agriculture solution that provides unbiased product performance,
                 information, and critical field data to help farmers optimize ROI potential.
                 Front development was based on the framework Angular 7 environment, SCSS. Pixel perfect
@@ -54,20 +54,20 @@ const Experience = () => {
         </div>
 
         <div className="row">
+          <div className="col-sm-4">
+            <div className="experience-img-wrapper">
+              <img src={Radian} alt="Radian" />
+            </div>
+          </div>
           <div className="col-sm-8">
             <div className="experience-info-wrapper">
               <h4>Radian</h4>
-              <h5>User Interface Engineer</h5>
+              <h5>User Interface Engineer @ Tavant Technologies</h5>
               <p>It has a comprehensive resource across mortgage and real estate services, powered by data, analytics,
                 and insights.Front end development was based on library React.js, with material UI. Look and feel was given high
                 priority to match with the UX Design provided with the Style guide. Reusable react components were
                 created in storybook. Jira was used for the user stories and bug lists. Client interactions and daily stand
                 up helped in synching tasks with teammates.</p>
-            </div>
-          </div>
-          <div className="col-sm-4">
-            <div className="experience-img-wrapper">
-              <img src={Radian} alt="Radian" />
             </div>
           </div>
         </div>
